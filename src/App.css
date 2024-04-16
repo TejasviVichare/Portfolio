@@ -127,7 +127,7 @@ nav ul li{
   width: 50%;
 }
 .slider .div1{
-  padding-top: 200px;
+  padding-top: 140px;
  padding-left: 220px;
 }
 
@@ -274,7 +274,7 @@ section .features .container  #first-row .col h1{
   }
   section .features .container{
     border-top: solid 1px black;
-    margin-left: 0px;
+    margin-left: 30px;
   }
 }
 
@@ -516,15 +516,14 @@ section .contact .container .row #first-contact p{
     margin-top: 30px;
     padding-left: 0px;
   }
-  /* .name-pno{
+   .name-pno{
     display: flex;
     flex-direction: column;
-    color: aliceblue;
-    gap: 15px;
+   
+  }
+  .name-pno .name{
     width: 100%;
-    padding: 0px;
-    padding-top:100px ;
-  } */
+  }
 }
 
 #first-contact .fa-brands{
@@ -824,4 +823,14 @@ transition: 2s;
   100%{
     width: 85%;
   }
+}
+
+footer{
+  background-color:  #202326;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+
+  border-top: solid 1px black;
+  margin-top: 100px;
 }
