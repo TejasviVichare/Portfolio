@@ -1,42 +1,16 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function Resume() {
 
-     function professional(){
-        document.getElementById("Professional-Skills").style.display='block';
-        document.getElementById("Professional-Skills").style.transition='4s';
-        document.getElementById("education").style.display='none';
-        document.getElementById("professional-id").style.border='solid 1px #ff014f';
-        document.getElementById("professional-id").style.borderRadius='10px';
-        document.getElementById("education-id").style.border='none';
-        document.getElementById("Certificates-id").style.border='none';
-        document.getElementById("Certificates").style.display='none';
-     }
-    function education(){
-        document.getElementById("education").style.display='block';
-        document.getElementById("Professional-Skills").style.display='none';   
-        document.getElementById("education-id").style.border='solid 1px #ff014f';
-        document.getElementById("education-id").style.borderRadius='10px';
-        document.getElementById("professional-id").style.border='none';
-        document.getElementById("Certificates-id").style.border='none';
-        document.getElementById("Certificates").style.display='none';
-    }
-    function Certificates(){
-        document.getElementById("Certificates").style.display='block';
-        document.getElementById("Professional-Skills").style.display='none'; 
-        document.getElementById("education").style.display='none';
-        document.getElementById("Certificates-id").style.border='solid 1px #ff014f';
-        document.getElementById("Certificates-id").style.borderRadius='10px';  
-        document.getElementById("education-id").style.border='none';
-        document.getElementById("professional-id").style.border='none';
-    }
+  const [activeSection, setActiveSection] = useState('education');
+
+  const handleTabClick= (section) =>{
+    setActiveSection(section);
+  }
 
 
-    // function react(){
-    //     document.getElementById("react-span-inner").style.width='700px';
-    // }
 
-    // window.onload=react();
     return (
         <section>
             <div className="resume">
@@ -44,7 +18,7 @@ export default function Resume() {
                     <br></br><br></br>
                     <div className="row justify-content-center" id="first-row">
                         <div className="col">
-                            <p id="features-title">7+ YEARS OF EXPERIENCE</p>
+                            <p id="features-title">1 YEAR OF EXPERIENCE</p>
                             <h1 style={{ color: "rgb(201, 198, 198)" }}>My Resume</h1>
                         </div>
                     </div>
@@ -52,15 +26,16 @@ export default function Resume() {
                     <div className="row resume-list justify-content-center">
                         <div className="col-md-12 justify-content-center">
                             <ul className="justify-content-center">
-                                <li id="education-id"><a onClick={education}>Education</a></li>
-                                <li id="professional-id"><a onClick={professional} >Professional Skills</a></li>                           
-                                <li id="Certificates-id"><a onClick={Certificates}>Certificates</a></li>
+                                <li id="education-id"><a onClick={() => handleTabClick('education')}>Education</a></li>
+                                <li id="professional-id"><a onClick={() => handleTabClick('professional')} >Professional Skills</a></li>                           
+                                <li id="Certificates-id"><a onClick={() => handleTabClick('certificates')}>Certificates</a></li>
                             </ul>
                         </div>
                     </div>
+                    
 
 
-                    <div className="row education" id="education">
+                    <div className="row education" id="education"  style={{display: activeSection === 'education' ? 'block' : 'none'}}>
                         <div className="col-md-12">
                             <div className="row" style={{ marginTop: '60px' }}>
                                 <div className="col-md-6">
@@ -200,7 +175,7 @@ export default function Resume() {
                         </div>
                     </div>
 
-                    <div className="row" id="Professional-Skills">
+                    <div className="row" id="Professional-Skills" style={{display: activeSection === 'professional' ? 'block' : 'none', transition: '4s'}}>
                         <div className="col-md-12">
                             <div className="row text-center" style={{ marginTop: '60px' }}>
                                 <div className="col">
@@ -269,7 +244,7 @@ export default function Resume() {
                     </div>
 
                     {/* Certificates */}
-                    <div className="row education" id="Certificates">
+                    <div className="row education" id="Certificates" style={{display: activeSection === 'certificates' ? 'block' : 'none'}}>
                         <div className="col-md-12">
                             <div className="row" style={{ marginTop: '60px' }}>
                                 <div className="col-md-12">
