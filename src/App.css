@@ -204,8 +204,9 @@ section .features{
 }
 
 section .features .container{
+  width: auto;
   border-top: solid 1px black;
-  margin-left: 100px;
+ 
 }
 
 section .features .container  #first-row .col p{
@@ -230,7 +231,7 @@ section .features .container  #first-row .col h1{
   box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
   font-size: 20px;
   box-sizing: border-box;
-  width: 400px;
+ 
   height: 350px;
   padding-top: 80px;
   overflow-y: hidden;
@@ -619,7 +620,7 @@ section .resume .container  #first-row .col{
     padding-right:70px;
   }
   .education{
-    width: 95%;
+    width: 100%;
     height: auto;
     margin-left: 0px;
   }
@@ -707,6 +708,15 @@ section .resume .container  #first-row .col{
     display: none;
     justify-content: center;
     margin-left: 0px;
+  }
+  .education-main2{
+    width: 100%;
+    background-color: #181b1d;
+    padding: 15px;
+   padding-bottom: 80px;
+   padding-top: 80px;
+   border-radius: 8px;
+   box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
   }
 }
 #Certificates .education-main1{
