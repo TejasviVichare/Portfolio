@@ -23,7 +23,7 @@ export default function Projects(){
             <div className="col-md-3" id="features-box">
                     <img src={portfolio}></img><br></br>
                     <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Portfolio  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <i class="fa-brands fa-github"></i>
+                    <Link to="https://github.com/TejasviVichare/Portfolio"> <i class="fa-brands fa-github"></i></Link> 
                     </h1><br></br>
                     <p style={{color:"rgb(201, 198, 198)"}}>Developed a personal portfolio website using React.js to showcase my skills, projects, and professional experience. 
 </p><br></br>
@@ -64,7 +64,7 @@ devices, including desktops, tablets, and mobile phones.
                 <div className="col-md-3" id="features-box">
                     <img src={cart}></img><br></br>
                     <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Cart   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <Link to="https://github.com/TejasviVichare/Goind"><i class="fa-brands fa-github"></i></Link> 
+                    <Link to="https://github.com/TejasviVichare/cart"><i class="fa-brands fa-github"></i></Link> 
                     </h1><br></br>
                     <p style={{color:"rgb(201, 198, 198)"}}>A cart was developed using React in which you can add products along with their quantities and the cart will display the results.<br></br><br></br> </p><br></br>
                     <i class="fa-solid fa-arrow-right"></i>

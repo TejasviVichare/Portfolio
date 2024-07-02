@@ -13,7 +13,7 @@ export default function Resume() {
 
     return (
         <section>
-            <div className="resume">
+            <div className="resume w-100">
                 <div className="container">
                     <br></br><br></br>
                     <div className="row justify-content-center" id="first-row">
@@ -27,8 +27,10 @@ export default function Resume() {
                         <div className="col-md-12 justify-content-center">
                             <ul className="justify-content-center">
                                 <li id="education-id"><a onClick={() => handleTabClick('education')}>Education</a></li>
+                                <li id="experience-id"><a onClick={() => handleTabClick('experience')} >Experience</a></li> 
                                 <li id="professional-id"><a onClick={() => handleTabClick('professional')} >Professional Skills</a></li>                           
                                 <li id="Certificates-id"><a onClick={() => handleTabClick('certificates')}>Certificates</a></li>
+
                             </ul>
                         </div>
                     </div>
@@ -38,7 +40,7 @@ export default function Resume() {
                     <div className="row education" id="education"  style={{display: activeSection === 'education' ? 'block' : 'none'}}>
                         <div className="col-md-12">
                             <div className="row" style={{ marginTop: '60px' }}>
-                                <div className="col-md-6">
+                                <div className="col-md-12">
                                     <p id="features-title" style={{color:'#ff014f'}}>2016 - 2022</p>
                                     <h1 style={{ color: "rgb(201, 198, 198)" }}>Education Quality</h1>
                                     <div className="education-main">
@@ -105,7 +107,14 @@ export default function Resume() {
 
 
                                 </div>
-                                <div className="col-md-6">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div className="row" id="experience" style={{display: activeSection === 'experience' ? 'block' : 'none', transition: '4s'}}>
+                    <div className="col-md-12">
+                        <br />
                                     <p id="features-title" style={{color:'#ff014f'}}>May 2023 - Present</p>
                                     <h1 style={{ color: "rgb(201, 198, 198)" }}>Job Experience</h1>
 
@@ -171,10 +180,7 @@ export default function Resume() {
                                     </div>
 
                                 </div>
-                            </div>
-                        </div>
                     </div>
-
                     <div className="row" id="Professional-Skills" style={{display: activeSection === 'professional' ? 'block' : 'none', transition: '4s'}}>
                         <div className="col-md-12">
                             <div className="row text-center" style={{ marginTop: '60px' }}>

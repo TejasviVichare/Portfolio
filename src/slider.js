@@ -1,8 +1,8 @@
-import profileimg from './bannerImg.caa3d5e2872e84d77cf2.png'
+import profileimg from './tejasvi.png'
 import { Link } from 'react-router-dom';
 
 const divStyle = {
-    fontSize: 70,
+    fontSize: 60,
     
 }
 const textStyle ={
@@ -28,7 +28,7 @@ export default function Slider(){
                 </div>
                  <div className="div2">
                     <center>
-                    <img src={profileimg}></img>
+                    <img src={profileimg} ></img>
                     </center>
                 </div> 
             </div>

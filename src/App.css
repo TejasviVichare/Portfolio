@@ -1,8 +1,7 @@
 body{
   color: rgb(231, 231, 231);
+  background-color: #202326;
 }
-
-
 
 
 /*Navbar CSS*/
@@ -123,12 +122,13 @@ nav ul li{
   transition: 0.1s;
   color: #fff;
 }
-.slider .div1, .div2{
-  width: 50%;
+.slider  .div2{
+  width: 40%;
 }
 .slider .div1{
-  padding-top: 140px;
- padding-left: 220px;
+  width: 60%;
+  padding-top: 70px;
+ padding-left: 170px;
 }
 
 @media (max-width:1093px){
@@ -146,20 +146,21 @@ nav ul li{
 .slider .div2{
   text-align: center;
   padding-right: 100px;
-  
+
 }
 .slider .div2 img{
-  width:550px;
+  width:500px;
   padding: 30px;
-  margin-top: 30px;
+  padding-top: 100px;
   /* box-shadow:  0 0 5px 2px #161616; */
   
 }
 @media (max-width:600px){
   .slider .div2{
+    width: 100%;
     padding-right: 0px;
     margin-top: 30px;
-    padding: 30px;
+    padding: 10px;
   }
   .slider .div1{
     padding-top: 100px;
@@ -171,6 +172,13 @@ nav ul li{
   .slider .div1 #name2{
     font-size: 33px;
   }
+.slider .div2 img{
+  width:100%;
+  padding: 30px;
+  padding-top: 100px;
+  /* box-shadow:  0 0 5px 2px #161616; */
+  
+}
 }
 
 
@@ -634,8 +642,8 @@ section .resume .container  #first-row .col{
   font-size: 18px;
 }
 
-.education .col-md-6 h1{
-  font-size: 40px;
+.education .col-md-12 h1{
+  font-size: 30px;
   font-weight: bolder;
 }
 
@@ -674,6 +682,7 @@ section .resume .container  #first-row .col{
   background-color:#ff014f;
 }
 .education-main2{
+  width: 80%;
   background-color: #181b1d;
   padding: 50px;
  padding-bottom: 80px;
@@ -691,15 +700,16 @@ section .resume .container  #first-row .col{
    
   }
 }
+
 #Certificates {
   display: none;
   justify-content: center;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 #Certificates h1{
-  font-size: 50px;
-  text-align: center;
+  font-size: 30px;
+
   font-weight: bold;
 }
 
@@ -722,6 +732,41 @@ section .resume .container  #first-row .col{
 #Certificates .education-main1{
   width: 100%;
 }
+
+
+/*experince*/
+#experience {
+  display: none;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+#experience h1{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media (max-width:600px) {
+  #experience {
+    display: none;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .education-main2{
+    width: 100%;
+    background-color: #181b1d;
+    padding: 15px;
+   padding-bottom: 80px;
+   padding-top: 80px;
+   border-radius: 8px;
+   box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
+  }
+}
+#experience .education-main1{
+  width: 100%;
+}
+
+
 
 #education-main1:hover > #span2 { background-color: yellow; }
 #Certificates .education-main2{

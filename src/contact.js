@@ -2,6 +2,7 @@ import contact from './contact.png';
 import React, { useState } from 'react'
 import emailjs from '@emailjs/browser';
 import { Link } from 'react-router-dom';
+import Footer from './footer';
 
 
 export default function Contact() {
@@ -76,7 +77,7 @@ export default function Contact() {
 
                         <div className="col-md-7 justify-content-center" id="first-contact">
                             <form onSubmit={handleSubmit}>
-                                <div className='name-pno justify-content-center'>
+                                <div className='name-pno justify-content-center ' >
                                     <div className='name'>
                                         <p>YOUR NAME</p>
                                         <input type='text' value={name}  onChange={(e) => setName(e.target.value)} className='form-control'></input>
@@ -103,6 +104,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
+                <Footer />
             </div>
         </section>
     )

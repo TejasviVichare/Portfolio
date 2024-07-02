@@ -14,6 +14,7 @@ function Navbar() {
   const changeheight=()=>{
     setheight('200px');
   }
+  
   return (
    <nav style={{height: height}}>
      <div className="menu-icon" onClick={toggleMenu}>
