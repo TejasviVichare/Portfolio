@@ -22,7 +22,7 @@ export default function Slider(){
                     <p style={divStyle}><strong id='name'> Hi, I'm  <span style={textStyle}>Tejasvi Vichare</span> <p style={textStyle2} id='name2'> a  Frontend Developer.|</p></strong></p>
                     <p style={{marginTop:'20px',fontFamily:'sans-serif'}}>I'm a front end developer with 1 years of experience in web development. 
                             I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.</p>
-                   <br></br><br></br> <Link  to="https://drive.google.com/file/d/1bnJt6zf_FvsfY30DZ-vHVZvZkpic8ang/view?usp=sharing" id='download-cv'>Download Resume</Link>
+                   <br></br><br></br> <Link  to="https://drive.google.com/file/d/1Vtlcz5suMvMycsa0PXRhGP5z4WmLOhZ-/view?usp=sharing" id='download-cv'>Download Resume</Link>
                     </div>
 
                 </div>
