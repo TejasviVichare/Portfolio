@@ -1,4 +1,5 @@
 import projects from './goind.jpg';
+import ecommerce from './Images/ecommerce.png'
 import derbyprints from './derby-prints.jpg'
 import currency from './currency-converter.jpg'
 import portfolio from './portfolio.jpg'
@@ -26,16 +27,17 @@ export default function Projects(){
                     <Link to="https://github.com/TejasviVichare/Portfolio"> <i class="fa-brands fa-github"></i></Link> 
                     </h1><br></br>
                     <p style={{color:"rgb(201, 198, 198)"}}>Developed a personal portfolio website using React.js to showcase my skills, projects, and professional experience. 
-</p><br></br>
+                    </p><br></br>
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
-                <div className="col-md-3" id="features-box">                
-                    <img src={projects}></img><br></br>               
-                    <h1 style={{color:"rgb(201, 198, 198)"}} id="title">GOIND &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <Link to="https://github.com/TejasviVichare/Goind"><i class="fa-brands fa-github"></i></Link> 
+                <div className="col-md-3" id="features-box">
+                    <img src={ecommerce}></img><br></br>
+                    <h1 style={{color:"rgb(201, 198, 198)"}} id="title">E-commerce  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link to="https://github.com/TejasviVichare/ecommerce"> <i class="fa-brands fa-github"></i></Link> 
                     </h1><br></br>
-                    <p style={{color:"rgb(201, 198, 198)"}}>This project is designed to seamlessly scale and adjust its layout for optimal viewing on various devices.
-</p><br></br>
+                    <p style={{color:"rgb(201, 198, 198)"}}>This project is a fully functional e-commerce platform built using React for the frontend and Tailwind CSS for
+                    modern, responsive UI design 
+                    </p><br></br>
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
               
@@ -69,14 +71,23 @@ devices, including desktops, tablets, and mobile phones.
                     <p style={{color:"rgb(201, 198, 198)"}}>A cart was developed using React in which you can add products along with their quantities and the cart will display the results.<br></br><br></br> </p><br></br>
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
-                <div className="col-md-3" id="features-box">
+                <div className="col-md-3" id="features-box">                
+                    <img src={projects}></img><br></br>               
+                    <h1 style={{color:"rgb(201, 198, 198)"}} id="title">GOIND &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link to="https://github.com/TejasviVichare/Goind"><i class="fa-brands fa-github"></i></Link> 
+                    </h1><br></br>
+                    <p style={{color:"rgb(201, 198, 198)"}}>This project is designed to seamlessly scale and adjust its layout for optimal viewing on various devices.
+   </p><br></br>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                {/* <div className="col-md-3" id="features-box">
                     <img src={tic}></img><br></br>
                     <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Tic-Tac-Toe   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <Link to="https://github.com/TejasviVichare/Tic-Tac-Toe"><i class="fa-brands fa-github"></i></Link> 
                     </h1><br></br>
                     <p style={{color:"rgb(201, 198, 198)"}}>Developed Tic tac Toe game by using HTML5, CSS3, Javascript. It offers a platform for users to engage in a strategic battle by placing their markers (X or O) on a 3x3 grid. </p><br></br>
                     <i class="fa-solid fa-arrow-right"></i>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
