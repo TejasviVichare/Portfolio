@@ -27,7 +27,7 @@ export default function Projects(){
                     <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Boco.agency  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <Link to="https://boco-agency-next-js.vercel.app/"> <i class="fa-brands fa-github"></i></Link> 
                     </h1><br></br>
-                    <p style={{color:"rgb(201, 198, 198)"}}>A modern website built with Next.js and Tailwind CSS, featuring responsive design with a dynamic image slider for an engaging user experience. 
+                    <p style={{color:"rgb(201, 198, 198)"}}>A modern website built with Next.js and Tailwind CSS, seamlessly connected to a Strapi backend for dynamic content management.
                     </p><br></br>
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
