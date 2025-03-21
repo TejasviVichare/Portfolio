@@ -4,6 +4,7 @@ import derbyprints from './derby-prints.jpg'
 import currency from './currency-converter.jpg'
 import portfolio from './portfolio.jpg'
 import cart from './cart.jpg'
+import bocoagency from './boco-agency.png'
 import tic from './tic-tac-toe.png'
 import { Link } from 'react-router-dom';
 export default function Projects(){
@@ -21,6 +22,15 @@ export default function Projects(){
             <br></br>
             <br></br>
             <div className="row justify-content-center" id="second-row">
+            <div className="col-md-3" id="features-box">
+                    <img src={bocoagency}></img><br></br>
+                    <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Boco.agency  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link to="https://boco-agency-next-js.vercel.app/"> <i class="fa-brands fa-github"></i></Link> 
+                    </h1><br></br>
+                    <p style={{color:"rgb(201, 198, 198)"}}>A modern website built with Next.js and Tailwind CSS, featuring responsive design with a dynamic image slider for an engaging user experience. 
+                    </p><br></br>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
             <div className="col-md-3" id="features-box">
                     <img src={portfolio}></img><br></br>
                     <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Portfolio  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -41,14 +51,7 @@ export default function Projects(){
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
               
-                <div className="col-md-3" id="features-box">
-                    <img src={currency}></img><br></br>
-                    <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Currency Converter  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <Link to="https://github.com/TejasviVichare/Currency-Converter"><i class="fa-brands fa-github"></i></Link> 
-                    </h1><br></br>
-                    <p style={{color:"rgb(201, 198, 198)"}}>The Currency Converter is a web-based application designed to facilitate easy and accurate currency conversion for users.</p><br></br>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
+               
             </div>
             <br></br>
             <div className="row justify-content-center" id="second-row">
@@ -71,7 +74,15 @@ devices, including desktops, tablets, and mobile phones.
                     <p style={{color:"rgb(201, 198, 198)"}}>A cart was developed using React in which you can add products along with their quantities and the cart will display the results.<br></br><br></br> </p><br></br>
                     <i class="fa-solid fa-arrow-right"></i>
                 </div>
-                <div className="col-md-3" id="features-box">                
+                <div className="col-md-3" id="features-box">
+                    <img src={currency}></img><br></br>
+                    <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Currency Converter  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <Link to="https://github.com/TejasviVichare/Currency-Converter"><i class="fa-brands fa-github"></i></Link> 
+                    </h1><br></br>
+                    <p style={{color:"rgb(201, 198, 198)"}}>The Currency Converter is a web-based application designed to facilitate easy and accurate currency conversion for users.</p><br></br>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                {/* <div className="col-md-3" id="features-box">                
                     <img src={projects}></img><br></br>               
                     <h1 style={{color:"rgb(201, 198, 198)"}} id="title">GOIND &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <Link to="https://github.com/TejasviVichare/Goind"><i class="fa-brands fa-github"></i></Link> 
@@ -79,7 +90,7 @@ devices, including desktops, tablets, and mobile phones.
                     <p style={{color:"rgb(201, 198, 198)"}}>This project is designed to seamlessly scale and adjust its layout for optimal viewing on various devices.
    </p><br></br>
                     <i class="fa-solid fa-arrow-right"></i>
-                </div>
+                </div> */}
                 {/* <div className="col-md-3" id="features-box">
                     <img src={tic}></img><br></br>
                     <h1 style={{color:"rgb(201, 198, 198)"}} id="title">Tic-Tac-Toe   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

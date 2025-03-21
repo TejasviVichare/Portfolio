@@ -65,8 +65,7 @@ export default function Contact() {
                             <img src={contact}></img><br></br>
                             <h1>Tejasvi Vichare</h1><br></br>
                             <p style={{ color: "rgb(201, 198, 198)" }} id="title">Frontend Developer</p><br></br>
-                            <p style={{ color: "rgb(201, 198, 198)" }}>I'm a front end developer with 1 years of experience in web development. 
-                            I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.</p><br></br>
+                            <p style={{ color: "rgb(201, 198, 198)" }}>I'm a Frontend Developer with 2 years of experience in React.js, Next.js with proficiency in web technologies like HTML5, CSS3, JavaScript, building large-scale web applications, cross-browser platforms, and design constraints on the web, and building responsive user interfaces.</p><br></br>
                             <p style={{ color: "rgb(201, 198, 198)" }}>Phone: <a href='tel:+91-9834593628'>+91 9834593628</a> </p><br></br>
                             <p style={{ color: "rgb(201, 198, 198)" }}>Email: <a href='mailto:tejasvivichare2121@gmail.com'>tejasvivichare2121@gmail.com</a> </p><br></br><br></br>
                             <p style={{ color: "rgb(201, 198, 198)" }}>FIND ME IN</p><br></br>

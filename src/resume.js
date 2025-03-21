@@ -134,8 +134,9 @@ export default function Resume() {
                                                 <h3 style={{fontSize:'30px', fontWeight:'600'}}>Worldex India Exhibition & Promotion Pvt. Ltd.</h3>   <br></br>
                                                 <p style={{fontSize:'16px',fontWeight:'600',marginBottom:'5px'}}>Web Developer</p>
                                                 <p style={{fontSize:'16px',fontWeight:'600'}}>&#x2022; Developed responsive and user-friendly web applications using HTML5, CSS3, and JavaScript.</p>
-                                                <p style={{fontSize:'16px',fontWeight:'600'}}>&#x2022; Utilized frameworks such as React.js for building interactive and dynamic user interfaces.</p>
+                                                <p style={{fontSize:'16px',fontWeight:'600'}}>&#x2022; Utilized frameworks such as React.js, Next.js for building interactive and dynamic user interfaces.</p>
                                                 <p style={{fontSize:'16px',fontWeight:'600'}}>&#x2022; Maintained front-end web applications, resulting in a 20 % reduction in page load speeds.</p>
+                                                <p style={{fontSize:'16px',fontWeight:'600'}}>&#x2022; Develop email templates by using HTML and CSS.</p>
 
                                          
                                          
@@ -235,6 +236,17 @@ export default function Resume() {
                                     <div className="row text-left justify-content-center">
                                         <div className="col-md-8">
                                             <p style={{fontSize:'21px'}}>Bootstrap</p>
+                                            <br></br>
+                                            <div id="react-span">
+                                              <div id="Bootstrap-span-inner"> 
+
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="row text-left justify-content-center">
+                                        <div className="col-md-8">
+                                            <p style={{fontSize:'21px'}}>Tailwind</p>
                                             <br></br>
                                             <div id="react-span">
                                               <div id="Bootstrap-span-inner"> 

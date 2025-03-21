@@ -1,4 +1,4 @@
-import profileimg from './tejasvi.png'
+import profileimg from './Images/Tejasvi.jpg'
 import { Link } from 'react-router-dom';
 
 const divStyle = {
@@ -19,10 +19,10 @@ export default function Slider(){
                 <div className="div1 text-left">
                     <div>
                     <p>WELCOME TO MY WORLD</p>
-                    <p style={divStyle}><strong id='name'> Hi, I'm  <span style={textStyle}>Tejasvi Vichare</span> <p style={textStyle2} id='name2'> a  Frontend Developer.|</p></strong></p>
-                    <p style={{marginTop:'20px',fontFamily:'sans-serif'}}>I'm a front end developer with 1 years of experience in web development. 
-                            I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.</p>
-                   <br></br><br></br> <Link  to="https://drive.google.com/file/d/1Vtlcz5suMvMycsa0PXRhGP5z4WmLOhZ-/view?usp=sharing" id='download-cv'>Download Resume</Link>
+                    <p style={divStyle}><strong id='name'> Hi, I'm  <span style={textStyle}>Tejasvi Vichare</span> <p style={textStyle2} id='name2'> a  Frontend Developer.</p></strong></p>
+                    <p style={{marginTop:'20px',fontFamily:'sans-serif'}}>I'm a Frontend Developer with 2 years of experience in React.js, Next.js with proficiency in web technologies like HTML5, CSS3, JavaScript, building large-scale web applications, cross-browser platforms, and design constraints on the web, and building responsive user interfaces. 
+</p>
+                   <br></br><br></br> <Link  to="https://drive.google.com/file/d/1KASC3JMI_DFA38WZOilIffTYfzPyTFZ8/view?usp=sharing" id='download-cv'>Download Resume</Link>
                     </div>
 
                 </div>

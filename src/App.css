@@ -128,7 +128,7 @@ nav ul li{
 .slider .div1{
   width: 60%;
   padding-top: 70px;
- padding-left: 170px;
+ padding-left: 110px;
 }
 
 @media (max-width:1093px){
@@ -149,9 +149,9 @@ nav ul li{
 
 }
 .slider .div2 img{
-  width:500px;
+  width:400px;
   padding: 30px;
-  padding-top: 100px;
+ padding-top: 50px;
   /* box-shadow:  0 0 5px 2px #161616; */
   
 }
@@ -239,7 +239,7 @@ section .features .container  #first-row .col h1{
   box-shadow: 10px 10px 19px #1c1e22,-10px -10px 19px #262a2e;
   font-size: 20px;
   box-sizing: border-box;
- 
+  padding-right: 30px;
   height: 350px;
   padding-top: 80px;
   overflow-y: hidden;
